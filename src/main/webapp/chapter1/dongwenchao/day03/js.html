@@ -19,7 +19,7 @@ and open the template in the editor.
                 alert("Welcome " + name + ", the " + job);
             }
         </script>
-        <p>如果时间是11：30，会获得问候 "该下班了！"。</p>
+        <p>如果时间是上班时间，会获得问候 "该下班了！"。</p>
         <button onclick="myFunction1()">点击这里</button>
         <p id="demo"></p>
         <script>
@@ -31,7 +31,7 @@ and open the template in the editor.
                 {
                     x = "加油";
                 }
-               else if (time >= 11 || time <= 14 ||time>18) {
+               else if (time >= 11 || time <= 14 || time>18) {
                     x = "下班ing"
                 }
                 document.getElementById("demo").innerHTML = x;
