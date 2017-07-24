@@ -19,11 +19,20 @@ function addPing(){
 }
 function delPing(){
     if(!confirm("确认要删除这条评论吗？")){
-         window.event.returnValue = false;
-     }else{
+        window.event.returnValue = false;
+    }else{
         var ol=document.getElementById("pol");
-        var li=document.getElementById("oth");
-       ol.removeChild(li);
+       // var li=document.getElementById("oth");
+        var li=document.getElementsByClassName("li");
+        var a;
+        for(var i=0;i<li.length;i++){
+            a=li[i];
+            a.index=i;
+        }
+
+
+
+
     }
 }
 function upFunction(){
@@ -42,12 +51,26 @@ function oneFunction(){
     w=window.open('send.html','', 'width=460,height=500');
     w.focus();
 }
+
 function test(){
-    document.getElementById("zhuce").style="display:none";
-    var l=document.getElementById("deng");
-    l.innerHTML="欢迎 "+document.getElementById("user").value+" 您的使用";
-    l.style="color: lightskyblue";
-    document.getElementById("person").style="display:' '";
-
-
+    //登录成功
+    var name=document.getElementById("user").value;
+    var pwd=document.getElementById("password").value;
+    if(name=="zhangle" && pwd==1234){
+        document.getElementById("zhuce").style="display:none";
+        var l=document.getElementById("deng");
+        l.innerHTML="欢迎 "+document.getElementById("user").value+" 您的使用";
+        l.style="color: lightskyblue";
+        document.getElementById("person").style="display:' '";
+    }
+    //登录失败
+    else if(name!="zhangle" || pwd!=1234){
+        alert("用户名或密码出错");
+    }
+}
+function makesure(){
+    if(!confirm("确认提交修改后的个人信息")){
+        window.event.returnValue = false;
+        document.getElementById("edit").style="display:' '";
+    }
 }
