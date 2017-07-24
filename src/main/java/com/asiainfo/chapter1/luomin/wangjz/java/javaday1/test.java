@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.luomin.wangjz.java基础.javaday1;
+package com.asiainfo.chapter1.luomin.wangjz.java.javaday1;
 
 import org.junit.Test;
 
@@ -16,5 +16,17 @@ public class test {
         for(String s:str1){
             System.out.println(s);
         }
+    }
+    @Test
+    public void test1(){
+        int a=6,b=-6,c=50;
+        System.out.println(c%a+"  "+c%b);
+        System.out.println(a>0&b<0);
+        System.out.println(a>0|b>0);
+        System.out.println(a<0^b>0);
+        a=a+b;//两变量进行数据互换，不需要第三变量！
+        b=a-b;
+        a=a-b;
+        System.out.println("a="+a+"  b=  "+b);
     }
 }

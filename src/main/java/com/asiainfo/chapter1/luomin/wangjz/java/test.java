@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.luomin.wangjz.java基础;
+package com.asiainfo.chapter1.luomin.wangjz.java;
 
 import org.junit.Test;
 
