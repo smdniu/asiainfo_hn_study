@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.sunmd;
+﻿package com.asiainfo.chapter1.sunmd.s0724;
 
 import java.util.Arrays;
 
