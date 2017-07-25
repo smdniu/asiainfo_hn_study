@@ -1,18 +1,25 @@
+/*
 package com.asiainfo.chapter1.liangzhiqiang;
+*/
 /**
  * Created by 君不悔 on 2017/7/24.
- */
+ *//*
+
 public class SquenceTest {
-    /**
+    */
+/**
      * 求和：1+1/2!+1/3!+......+1/50!
-     */
+     *//*
+
     public static void main(String[] args){
         System.out.println("递归求和："+SquenceTest.getSquen);
         System.out.println("迭代求和："+getSquenceTestSumByInter);
     }
-    /**
+    */
+/**
      * 递归求和
-     */
+     *//*
+
 }
 
 public  static double getSquenceSum(int n){
@@ -30,3 +37,4 @@ public  static double getSquenceSum(int n){
     return sum;
 }
 }
+*/

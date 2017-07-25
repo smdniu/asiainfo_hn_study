@@ -1,7 +1,10 @@
+/*
 package com.asiainfo.chapter1.liangzhiqiang;
+*/
 /**
  * Created by 君不悔 on 2017/7/24.
- */
+ *//*
+
 public class operator {
 }
 public static void main(String[]args){
@@ -26,4 +29,4 @@ public static void main(String[]args){
     System.out.println("h="+h+",o="+o);
 }
 }
-//输出结果 b=5,a=5 c=-5,a=5 d=3,l=3 f=3,m=4 g=3,n=3 h=6,o=5
+//输出结果 b=5,a=5 c=-5,a=5 d=3,l=3 f=3,m=4 g=3,n=3 h=6,o=5*/

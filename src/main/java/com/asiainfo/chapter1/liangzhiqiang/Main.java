@@ -1,3 +1,4 @@
+/*
 package com.asiainfo.chapter1.liangzhiqiang;
 public class Main {
 
@@ -19,3 +20,4 @@ public class Main {
     }
 }
    //运行结果：请输入5个整数。以空格隔开：10 20 15 25 50 。所有数组元素的和为：120
+*/

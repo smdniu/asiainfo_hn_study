@@ -1,10 +1,13 @@
+/*
 package com.asiainfo.chapter1.luomin.zhangle.day1;
 
 import org.junit.Test;
 
+*/
 /**
  * Created by del on 2017/7/24.
- */
+ *//*
+
 public class one {
     @Test
     public void date(){
@@ -131,3 +134,4 @@ public class one {
         o.diedai(9);
     }
 }
+*/
