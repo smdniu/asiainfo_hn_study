@@ -1,11 +1,11 @@
-package com.asiainfo.chapter1.luomin.fengzx;
+package com.asiainfo.chapter1.fengzx.July24;
 
 import javax.print.DocFlavor;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by 清华同方 on 2017/7/24.
+ * Created by fengzx on 2017/7/24.
  */
 public class July24Work {
     public static void main(String[] args) {

@@ -1,9 +1,16 @@
-package com.asiainfo.chapter1.fengzx;
+package com.asiainfo.chapter1.fengzx.July24;
 
-/**
- * Created by 清华同方 on 2017/7/24.
+import org.junit.Test;
+
+/*
+ * Created by fengzx on 2017/7/24.
  */
 public class LotteryArray {
+    @Test
+    public  void ns(){
+
+    }
+
     public static  void main(String[] args){
         final int NMAX = 10;
         int[][] odds = new int[NMAX + 1][];
