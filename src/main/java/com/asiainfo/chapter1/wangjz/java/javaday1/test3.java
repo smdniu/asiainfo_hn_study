@@ -6,12 +6,24 @@ package com.asiainfo.chapter1.wangjz.java.javaday1;
 public class test3 {
     public static void main(String args[]){
         int s=0;
+        int c=1,b=2;
         for(int a=1;a<100;a++){
              s=s+a;
         }
         System.out.println(s);
        System.out.println(f(10));
         System.out.println(o(21,7));
+        System.out.println(c/b);
+        print(12);
+
+    }
+
+
+    public static  void print(int n){
+        if(n/2>0){
+            print(n/2);
+        }
+        System.out.println(n%2);
     }
     /*
     递归调用！
