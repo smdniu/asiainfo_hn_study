@@ -14,7 +14,7 @@ StringBuffer类对象为可修改对象，
  */
 
 public class test4 {
-
+    @Test
     public  void  test(){
         String str1="wjz";
         String str11="www";
