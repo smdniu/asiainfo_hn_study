@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by 君不悔 on 2017/7/25.
  */
-public class test {
+public class Title6 {
     public static void main(String[]args){
         int[] n=new int[10];
         Random r=new Random();//实例化一个随机数对象

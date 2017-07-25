@@ -4,7 +4,7 @@ package com.asiainfo.chapter1.liangzhiqiang.day2;
  * Created by 君不悔 on 2017/7/25.
  */
 import java.util.Scanner;
-public class collect {
+public class Title1 {
     public static void main(String[] args) {
 // 输入数据
         Scanner console = new Scanner(System.in);

@@ -4,7 +4,7 @@ package com.asiainfo.chapter1.liangzhiqiang.day2;
  * Created by 君不悔 on 2017/7/25.
  */
 import java.util.Scanner;
-public class score {
+public class Title2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入该学员的分数(0-100)：");
