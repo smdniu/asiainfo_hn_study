@@ -6,7 +6,7 @@ import org.junit.Test;
  * Created by wjz123456 on 2017/7/24.
  */
 public class test {
-    @Test
+
     public void test(){
         String str1[]=new String[]{"aa","bb","wjz","dd"};
         String str2[]=new String[4];
@@ -17,7 +17,7 @@ public class test {
             System.out.println(s);
         }
     }
-    @Test
+
     public void test1(){
         int a=6,b=-6,c=50;
         System.out.println(c%a+"  "+c%b);
@@ -29,4 +29,5 @@ public class test {
         a=a-b;
         System.out.println("a="+a+"  b=  "+b);
     }
+
 }
