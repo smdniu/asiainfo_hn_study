@@ -1,12 +1,10 @@
-package com.asiainfo.chapter1.luomin.zhangle.day1;
-
-import org.junit.Test;
+package com.asiainfo.chapter1.zhangle.day1;
 
 /**
  * Created by del on 2017/7/24.
  */
 public class one {
-    @Test
+
     public void date(){
         System.out.println("数据类型：");
         //byte
@@ -31,7 +29,7 @@ public class one {
         System.out.println(" ");
     }
 
-    @Test
+
     public void yunsuan(){
         System.out.println(" ");
         System.out.println("运算：");
@@ -59,7 +57,7 @@ public class one {
         System.out.println(" ");
     }
 
-    @Test
+
     public void yuju(){
         System.out.println("语句：");
         int a=10,b=3;
@@ -80,7 +78,7 @@ public class one {
 
     }
 
-    @Test
+
     public void shuzu(){
         System.out.println("数组：");
         int[] arr=new int[2];
@@ -94,7 +92,6 @@ public class one {
         System.out.println(" ");
     }
 
-    @Test
     public static void digui(int i){
         if (i == 1) {
             System.out.println("1*1=1 ");
@@ -108,7 +105,6 @@ public class one {
         System.out.println();
     }
 
-    @Test
     public int diedai(int n){
         int result=1;
         for(int i=2;i<n;i++){
