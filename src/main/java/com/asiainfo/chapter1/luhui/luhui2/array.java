@@ -1,4 +1,4 @@
-package luhui2;
+package com.asiainfo.chapter1.luhui.luhui2;
 
 import java.util.Random;
 
