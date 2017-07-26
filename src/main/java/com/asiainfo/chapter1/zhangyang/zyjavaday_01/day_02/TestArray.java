@@ -8,22 +8,22 @@ package com.asiainfo.chapter1.zhangyang.zyjavaday_01.day_02;
 
 public class TestArray {
     public static void main(String[] args) {
-        int[] num = new int[10]; // ÉùÃ÷ÕûÊıÊı×éA,°Ñ¹æ¶¨Êı×é´óĞ¡Îª10
+        int[] num = new int[10]; // å£°æ˜æ•´æ•°æ•°ç»„A,æŠŠè§„å®šæ•°ç»„å¤§å°ä¸º10
         Random ran = new Random();
         for (int i = 0; i < num.length; i++) {
             num[i] = ran.nextInt(100);
         }
-        System.out.print("Êı×éµÄÔªËØ°üÀ¨£º");
-        int max;//¶¨Òå×î´óÖµ
+        System.out.print("æ•°ç»„çš„å…ƒç´ åŒ…æ‹¬ï¼š");
+        int max;//å®šä¹‰æœ€å¤§å€¼
         max = num[0];
         for (int i = 0; i < num.length; i++) {
             System.out.print(num[i] + " ");
-            if (num[i] > max) // ÅĞ¶Ï×î´óÖµ
+            if (num[i] > max) // åˆ¤æ–­æœ€å¤§å€¼
                 max = num[i];
         }
-        System.out.println("\nÊı×éµÄ×î´óÖµÊÇ£º" + max); // Êä³ö×î´óÖµ
+        System.out.println("\næ•°ç»„çš„æœ€å¤§å€¼æ˜¯ï¼š" + max); // è¾“å‡ºæœ€å¤§å€¼
         System.out.println("##############");
-        System.out.print("À©ÈİºóµÄÊı×éÔªËØ£º");
+        System.out.print("æ‰©å®¹åçš„æ•°ç»„å…ƒç´ ï¼š");
         num = Arrays.copyOf(num, 11);
         Arrays.sort(num);
         for(int i=0;i<num.length;i++){

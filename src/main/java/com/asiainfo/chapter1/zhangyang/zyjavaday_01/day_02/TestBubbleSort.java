@@ -7,9 +7,9 @@ package com.asiainfo.chapter1.zhangyang.zyjavaday_01.day_02;
 public class TestBubbleSort {
     public static void main(String[] args) {
         int[] arr = { 2, 8, 7, 9, 4, 1, 3, 0, 6, 5 };
-        System.out.println("---Ã°Åİ¿ªÊ¼----");
-        for (int i = 0; i < arr.length - 1; i++) {//Íâ²ãÑ­»·¿ØÖÆÅÅĞòÌËÊı
-            for (int j = 0; j < arr.length - 1 - i; j++) {// ÄÚ²ãÑ­»·¿ØÖÆÃ¿Ò»ÌËÅÅĞò¶àÉÙ´Î
+        System.out.println("---å†’æ³¡å¼€å§‹----");
+        for (int i = 0; i < arr.length - 1; i++) {//å¤–å±‚å¾ªç¯æ§åˆ¶æ’åºè¶Ÿæ•°
+            for (int j = 0; j < arr.length - 1 - i; j++) {// å†…å±‚å¾ªç¯æ§åˆ¶æ¯ä¸€è¶Ÿæ’åºå¤šå°‘æ¬¡
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
@@ -18,7 +18,7 @@ public class TestBubbleSort {
             }
             System.out.println(Arrays.toString(arr));
         }
-        System.out.println("----Ã°Åİ½áÊø----");
+        System.out.println("----å†’æ³¡ç»“æŸ----");
         System.out.println(Arrays.toString(arr));
     }
 }
