@@ -1,5 +1,7 @@
 package com.asiainfo.chapter1.wangjz.java.javaday1.javaday2;
 
+
+
 import java.util.Scanner;
 
 /**
