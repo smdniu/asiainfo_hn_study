@@ -1,4 +1,4 @@
-﻿package com.asiainfo.chapter1.sunmd.s0725;
+package com.asiainfo.chapter1.sunmd.s0725;
 
 import java.util.Scanner;
 
