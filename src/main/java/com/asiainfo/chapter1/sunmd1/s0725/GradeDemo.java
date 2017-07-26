@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.sunmd.s0725;
+package com.asiainfo.chapter1.sunmd1.s0725;
 
 import java.util.Scanner;
 
@@ -17,14 +17,13 @@ public class GradeDemo {
             if(gd.score>100){
                 System.out.println("请输入0到100以内的分数：");
             }else {
-               if(gd.score>=90)
-                   System.out.println("A");
-               else if(gd.score>=80)
+                if(gd.score>=90)
+                    System.out.println("A");
+                else if(gd.score>=80)
                     System.out.println("B");
-               else if(gd.score>=60)
+                else if(gd.score>=60)
                     System.out.println("C");
-               else
-                    System.out.println("D");
+                System.out.println("D");
                 break;
             }
         }

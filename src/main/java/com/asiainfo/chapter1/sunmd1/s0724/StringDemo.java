@@ -1,7 +1,4 @@
-﻿package com.asiainfo.chapter1.sunmd.s0724;
-
-import org.junit.Test;
-
+package com.asiainfo.chapter1.sunmd1.s0724;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -19,6 +16,14 @@ import java.util.Scanner;
  */
 public class StringDemo {
 
+    public static void main(String[] args){
+        toStringTest();
+        ToBasicTypeTest();
+        dateFormatTest();
+        stringTest();
+        stringBuilderTest();
+    }
+
     /**
      * 1.基本数据类型转字符串
      * n+""
@@ -26,8 +31,8 @@ public class StringDemo {
      * String.valueOf(n)
      */
 
-    @Test
-    public void toStringTest(){
+
+    public static void toStringTest(){
         double n = 2.5;
         System.out.println((n+"").getClass());
         System.out.println(Double.toString(n).getClass());
@@ -41,8 +46,8 @@ public class StringDemo {
      *
      */
 
-    @Test
-    public void ToBasicTypeTest(){
+
+    public static  void ToBasicTypeTest(){
         String str = "666";
         System.out.println(Integer.parseInt(str));
         System.out.println(Integer.valueOf(str));
@@ -52,8 +57,8 @@ public class StringDemo {
      * 3.时间类型与字符串的转换
      */
 
-    @Test
-    public void dateFormatTest(){
+
+    public static void dateFormatTest(){
         Date date = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         //String format()
@@ -78,8 +83,8 @@ public class StringDemo {
     /**
      *  4.String类的常用方法
      */
-    @Test
-    public void stringTest(){
+
+    public static void stringTest(){
         String str = new String(" afsv fsfs fdkd jfoiwe ");
         System.out.println("字符串长度："+str.length());
         System.out.println("字符s第一次出现的位置："+str.indexOf('s'));
@@ -131,8 +136,8 @@ public class StringDemo {
     /**
      * 5.StringBuffer类的使用
      */
-    @Test
-    public void stringBuilderTest(){
+
+    public static void stringBuilderTest(){
         StringBuilder sb = new StringBuilder("好好学习");
         sb.append("天天向上");
         sb.toString();

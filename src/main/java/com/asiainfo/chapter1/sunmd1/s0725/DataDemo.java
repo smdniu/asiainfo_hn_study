@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.sunmd.s0725;
+package com.asiainfo.chapter1.sunmd1.s0725;
 
 import java.util.Scanner;
 
@@ -22,10 +22,8 @@ public class DataDemo {
                 break;
             }else if(data.m >159){
                 System.out.println("太大了：");
-                continue;
             }else if(data.m <159){
                 System.out.println("太小了：");
-                continue;
             }else if(data.m == 159){
                 System.out.println("恭喜你，猜对了！");
                 break;

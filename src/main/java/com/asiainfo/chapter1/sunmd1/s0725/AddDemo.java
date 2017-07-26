@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.sunmd.s0725;
+package com.asiainfo.chapter1.sunmd1.s0725;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class AddDemo {
     public static void main(String[] args){
+
         Random random = new Random();
         System.out.println("将开始10道加法测试...");
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +27,6 @@ public class AddDemo {
                 continue;
             }else {
                 System.out.println("Error!");
-                continue;
             }
 
         }

@@ -1,4 +1,4 @@
-package luhui2;
+package com.asiainfo.chapter1.luhui.luhui2;
 
 /**
  * Created by 18237161432 on 2017/7/25.
