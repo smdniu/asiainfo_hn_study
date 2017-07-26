@@ -3,25 +3,25 @@ package com.asiainfo.chapter1.zhangyang.zyjavaday_01.day_02;
 /**
  * Created by 11 on 2017/7/25.
  */
-        import java.util.Scanner;
+import java.util.Scanner;
 public class TestAddition {
     public static void main(String[] args) {
-        System.out.println("½«¿ªÊ¼10´Î¼Ó·¨²âÊÔ...");
+        System.out.println("å°†å¼€å§‹10æ¬¡åŠ æ³•æµ‹è¯•...");
         Scanner scan = new Scanner(System.in);
-        // ¼ÇÂ¼·ÖÊý
+        // è®°å½•åˆ†æ•°
         int Total = 0;
-        // ¹¹½¨ 10 ´ÎÑ­»·
+        // æž„å»º 10 æ¬¡å¾ªçŽ¯
         for (int i = 1; i <= 10; i++) {
-            // Ëæ»úÉú³ÉÁ½¸ö¼ÓÊý
+            // éšæœºç”Ÿæˆä¸¤ä¸ªåŠ æ•°
             int a = (int) (Math.random() * 100);
             int b = (int) (Math.random() * 100);
             int result = a + b;
-            // Êä³öÐèÒª¼ÆËãµÄ¼Ó·¨±í´ïÊ½
+            // è¾“å‡ºéœ€è¦è®¡ç®—çš„åŠ æ³•è¡¨è¾¾å¼
             System.out.println("(" + i + "). " + a + " + " + b + " = ?");
-            System.out.print("ÇëÊäÈë´ð°¸£¨ÊäÈë-1ÍË³ö£©£º ");
-            // ¶ÁÈë½á¹û
+            System.out.print("è¯·è¾“å…¥ç­”æ¡ˆï¼ˆè¾“å…¥-1é€€å‡ºï¼‰ï¼š ");
+            // è¯»å…¥ç»“æžœ
             int answer = scan.nextInt();
-            // ÅÐ¶Ï¶Ô´í
+            // åˆ¤æ–­å¯¹é”™
             if (answer == -1) {
                 break;
             } else if (answer != result) {
@@ -33,6 +33,6 @@ public class TestAddition {
             }
         }
         scan.close();
-        System.out.println("´Ë´Î²âÑé½áÊø£¬ÄãµÄ·ÖÊýÊÇ£º" + Total);
+        System.out.println("æ­¤æ¬¡æµ‹éªŒç»“æŸï¼Œä½ çš„åˆ†æ•°æ˜¯ï¼š" + Total);
     }
 }

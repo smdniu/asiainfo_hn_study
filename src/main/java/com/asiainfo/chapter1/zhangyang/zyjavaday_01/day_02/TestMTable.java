@@ -3,7 +3,7 @@ package com.asiainfo.chapter1.zhangyang.zyjavaday_01.day_02;
 /**
  * Created by 11 on 2017/7/25.
  */
-//ʹ�õݹ��㷨��ӡ�žų˷���
+//使用递归算法打印九九乘法表
 public class TestMTable {
     public static void method(int i) {
         if (i == 1) {
