@@ -8,13 +8,13 @@ import java.util.Scanner;
 public class TestPay {
 
     public static void main(String[] args) {
-        //ÊäÈëÊı¾İ
+        //è¾“å…¥æ•°æ®
         Scanner scan = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëµ¥¼Û£º");
+        System.out.println("è¯·è¾“å…¥å•ä»·ï¼š");
         double UnitPrice = scan.nextDouble();
-        System.out.println("ÇëÊäÈëÊıÁ¿£º");
+        System.out.println("è¯·è¾“å…¥æ•°é‡ï¼š");
         double count = scan.nextDouble();
-        System.out.println("ÇëÊäÈë½ğ¶î£º");
+        System.out.println("è¯·è¾“å…¥é‡‘é¢ï¼š");
         double amount = scan.nextDouble();
         double Totalpay = 0.0;
         Totalpay = UnitPrice*count;
@@ -22,6 +22,6 @@ public class TestPay {
             Totalpay = Totalpay*0.8;
         }
         double change = amount - Totalpay;
-        System.out.println("Ó¦ÊÕ½ğ¶î£º"+Totalpay+"ÕÒÁãÎª£º"+change);
+        System.out.println("åº”æ”¶é‡‘é¢ï¼š"+Totalpay+"æ‰¾é›¶ä¸ºï¼š"+change);
     }
 }

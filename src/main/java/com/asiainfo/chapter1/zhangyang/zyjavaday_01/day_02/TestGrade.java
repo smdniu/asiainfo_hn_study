@@ -7,11 +7,11 @@ package com.asiainfo.chapter1.zhangyang.zyjavaday_01.day_02;
 public class TestGrade {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÄãµÄ³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥ä½ çš„æˆç»©ï¼š");
         int grade = scan.nextInt();
         scan.close();
         if(grade>100||grade<0){
-            System.out.println("ÇëÊäÈë(0-100)³É¼¨!");
+            System.out.println("è¯·è¾“å…¥(0-100)æˆç»©!");
         }else if(grade>=90){
             System.out.println("A");
         }else if(grade>=80){
@@ -19,7 +19,7 @@ public class TestGrade {
         }else if(grade>=60){
             System.out.println("c");
         }else
-            System.out.println("ÄãĞèÒªÔÙÅ¬Á¦Å¬Á¦");
+            System.out.println("ä½ éœ€è¦å†åŠªåŠ›åŠªåŠ›");
     }
 }
 
