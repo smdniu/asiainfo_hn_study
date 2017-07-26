@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class AddDemo {
     public static void main(String[] args){
+
         Random random = new Random();
         System.out.println("将开始10道加法测试...");
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +27,6 @@ public class AddDemo {
                 continue;
             }else {
                 System.out.println("Error!");
-                continue;
             }
 
         }

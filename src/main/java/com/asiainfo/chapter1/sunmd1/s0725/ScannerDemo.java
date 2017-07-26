@@ -19,10 +19,9 @@ public class ScannerDemo {
         n = scanner.nextInt();
         System.out.println("请输入金额（￥）：");
         getMoney = scanner.nextDouble();
+        total = price * n;
         if(price * n >= 500)
-            total = price * n * 0.8;
-        else
-            total = price * n;
+            total = total * 0.8;
         System.out.println("应收金额为：￥"+String.format("%.1f",total)+",找零为：￥"+String.format("%.1f",getMoney-total));
 
 
