@@ -1,10 +1,4 @@
-package com.asiainfo.chapter1.sunmd.s0724;
-<<<<<<< HEAD
-=======
-
-import org.junit.Test;
->>>>>>> c6dc5eac0e34bb160f90c4dcda2e205733cb5a2c
-
+package com.asiainfo.chapter1.sunmd1.s0724;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;

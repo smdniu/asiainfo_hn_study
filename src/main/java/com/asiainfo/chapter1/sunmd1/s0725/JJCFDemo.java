@@ -1,4 +1,4 @@
-package com.asiainfo.chapter1.sunmd.s0725;
+package com.asiainfo.chapter1.sunmd1.s0725;
 
 /**
  * Created by Administrator on 2017/7/25 0025.
