@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class TestGuess {
     public static void main(String[] args) {
         int number = 233;
-        System.out.print("ÇëÊäÈëÄã²Â²âµÄÊı×Ö(1-1000)£¬ÍË³öÇë°´0£º");
+        System.out.print("è¯·è¾“å…¥ä½ çŒœæµ‹çš„æ•°å­—(1-1000)ï¼Œé€€å‡ºè¯·æŒ‰0ï¼š");
         Scanner scanner = new Scanner(System.in
 
         );
@@ -17,18 +17,18 @@ public class TestGuess {
                 break;
             }
             else if (guess > number) {
-                System.out.println("Ì«´óÁË!");
+                System.out.println("å¤ªå¤§äº†!");
             }
             else if (guess < number) {
-                System.out.println("Ì«Ğ¡ÁË!");
+                System.out.println("å¤ªå°äº†!");
             }
-            System.out.print("ÇëÊäÈëÄã²Â²âµÄÊı×Ö(1-1000)£¬ÍË³öÇë°´0£º");
+            System.out.print("è¯·è¾“å…¥ä½ çŒœæµ‹çš„æ•°å­—(1-1000)ï¼Œé€€å‡ºè¯·æŒ‰0ï¼š");
             guess = scanner.nextInt();
         }
         if(guess == number) {
-            System.out.println("¹§Ï²£¬Äã²Â¶ÔÁË!");
+            System.out.println("æ­å–œï¼Œä½ çŒœå¯¹äº†!");
         }else{
-            System.out.println("ÕæÒÅº¶£¬ÏÂ´ÎÔÙÌôÕ½°É!");
+            System.out.println("çœŸé—æ†¾ï¼Œä¸‹æ¬¡å†æŒ‘æˆ˜å§!");
         }
         scanner.close();
     }
