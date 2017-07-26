@@ -1,4 +1,4 @@
-package java_study;
+package com.asiainfo.chapter1.xushuo.work0724;
 
 /**
  * Created by root on 2017/7/24.
