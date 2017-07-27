@@ -1,11 +1,11 @@
-﻿package com.asiainfo.chapter1.chenjn;
+package com.asiainfo.chapter1.chenjn.JavaTest;
 
 import java.util.Scanner;
 
 /**
- * Created by Administrator on 2017/7/25 0025.
+ * Created by JN on 2017/7/26.
  */
-public class ScannerDemo {
+public class CounterGathering {
     public static Scanner scanner = new Scanner(System.in);
     public static double price;//默认是0.0
     public static int n;//默认0
@@ -30,3 +30,4 @@ public class ScannerDemo {
 
 
 }
+
