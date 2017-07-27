@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by 超超 on 2017/7/25 0025.
  */
-public class demo1 {
+public class demo0 {
     public static void main(String[] args){
         Scanner tiqu =new Scanner(System.in);//运用Scanner类创建对象tiqu 调用里面的一些方法。
         System.out.println("请输入单价￥：");
